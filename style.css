@@ -1,0 +1,40 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+#board-container {
+    display: inline-table;
+    background-color: #eee;
+    margin-top: 25px;
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.row {
+    display: block;
+    margin: 0px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 0px;
+    border-radius: 3px;
+}
+
+.square:hover {
+    background-color: #ccc;
+}
+
+#square-1, #square-2, #square-4, #square-5, #square-7, #square-8 {
+    border-right: solid thin #333;
+}
+
+#square-1, #square-2, #square-3, #square-4, #square-5, #square-6 {
+    border-bottom: solid thin #333;
+}
